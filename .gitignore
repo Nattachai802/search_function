@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+# ไฟล์นี้เก็บข้อมูลสำคัญ เช่น รหัสผ่านฐานข้อมูล ไม่ควรนำขึ้น GitHub เด็ดขาด
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+

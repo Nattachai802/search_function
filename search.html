@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Full-Text Search</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:40px}
+    .row{display:flex;gap:8px}
+    input[type="text"]{flex:1;padding:10px 12px;font-size:16px}
+    button{padding:10px 14px;font-size:16px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <h1>ค้นหา</h1>
+  <form class="row" action="/search" method="GET">
+    <input type="text" name="q" placeholder="พิมพ์คำค้น เช่น “Hyper-V”, “mitsubishi elevator asia …”" autofocus autocomplete="off" />
+    <button type="submit">ค้นหา</button>
+  </form>
+
+</body>
+</html>
